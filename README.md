@@ -1,8 +1,4 @@
 # GB-Power-Price-Diver-Spread-Radar
-Day-Ahead vs Intraday vs Imbalance price dashboard for GB power.
-
-
-# GB Power Price Diver Spread Radar ⚡📈
 
 A live dashboard comparing Day-Ahead, Intraday, and Imbalance (SBP/SSP) electricity prices in the GB market.  
 Tracks price spreads and volatility, and highlights what drives them using demand and wind forecasts.
