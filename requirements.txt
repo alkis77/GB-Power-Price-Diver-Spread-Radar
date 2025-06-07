@@ -1,0 +1,7 @@
+pandas
+requests
+entsoe-py
+streamlit
+plotly
+scikit-learn
+slack_sdk
