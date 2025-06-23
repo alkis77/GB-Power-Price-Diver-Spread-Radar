@@ -1,0 +1,4 @@
+regime_flag,Cashout £ (Mean),Cashout £ (P95),SBP-MIP £/MWh (Mean),SBP-MIP £/MWh (P95),TSD Error % (Mean),TSD Error % (P95)
+EXTREME,9149.82,68610.1,-50.09,251.98,0.0,0.03
+HIGH_VOL,6359.16,46692.45,-7.38,64.08,0.01,0.13
+NORMAL,5906.87,50579.3,0.71,32.57,0.0,0.09
