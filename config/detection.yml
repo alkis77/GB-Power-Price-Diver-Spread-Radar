@@ -1,0 +1,17 @@
+# Which columns define an "event" and how to flag them
+drivers:
+  cashout_cost_GBP:
+    method: percentile   # "percentile" | "abs"
+    threshold: 95      # top-2½ %
+    merge_window: 4      # half-hours to glue together
+  spread_SBP_vs_MIP:
+    method: percentile
+    threshold: 95
+    merge_window: 4
+  err_TSD_MW:
+    method: percentile
+    threshold: 95
+    merge_window: 4
+
+# When two different drivers overlap, which takes priority?
+priority: [cashout_cost_GBP, spread_SBP_vs_MIP, err_TSD_MW]

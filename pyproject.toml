@@ -1,0 +1,10 @@
+[project]
+name = "gbpower"
+version = "0.1.0"
+description = "GB Power Price Diver-Spread Radar utilities"
+authors = [{name="Alkis"}]
+dependencies = ["pandas", "numpy", "matplotlib", "seaborn", "pyyaml"]
+
+[tool.setuptools]
+packages = ["gbpower"]
+package-dir = {"" = "src"}
